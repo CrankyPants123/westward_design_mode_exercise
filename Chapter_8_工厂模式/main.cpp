@@ -1,7 +1,6 @@
 #include <iostream>
 #include "leifengfactory.hpp"
 
-
 int main() {
     Leifeng *leifeng = LeifengFactory::CreateLeifeng();
     leifeng->Wash();
